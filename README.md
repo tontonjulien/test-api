@@ -18,7 +18,12 @@ $ git clone https://github.com/tontonjulien/test-api.git
 $ cd test-api
 $ make install
 ```
+Access to the main endpoint :
 
+```bash
+curl --location --request POST 'localhost:8088' \
+--data-raw '[{"id": "xxxx-xxxx-xxxx-xxxx", "event": "impressions", "timestamp": 00000000000}, ...]'
+```
 
 Run the test suite
 -------
