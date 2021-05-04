@@ -14,8 +14,8 @@ Install
 Run the following commands in a terminal :
 
 ```bash
-$ git clone git@github.com:voxsquare/ipbx-api.git
-$ cd ipbx-api
+$ git clone https://github.com/tontonjulien/test-api.git
+$ cd test-api
 $ make install
 ```
 
